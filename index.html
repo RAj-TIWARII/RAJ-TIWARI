@@ -34,8 +34,8 @@
         }
 
         #college-logo {
-            width: 80px;  /* Increased size */
-            height: 80px;  /* Increased size */
+            width: 80px;
+            height: 80px;
             position: absolute;
             top: 29px;
             left: 60px;
@@ -117,6 +117,40 @@
         body.dark-mode {
             background-color: #252525;
             color: #f0f0f0;
+        }
+
+        /* Responsive styles */
+        @media only screen and (max-width: 600px) {
+            .header h1 {
+                font-size: 1.5em;
+            }
+            .header p {
+                font-size: 0.9em;
+            }
+            #profile-image {
+                width: 60px;
+                height: 54px;
+            }
+            #college-logo {
+                width: 60px;
+                height: 60px;
+                top: 25px;
+            }
+            .logo-container i {
+                font-size: 40px;
+            }
+            .white-sheet {
+                padding: 40px;
+            }
+            .white-sheet h2 {
+                font-size: 1.5em;
+            }
+            .white-sheet p {
+                font-size: 1em;
+            }
+            .basic-info-details {
+                margin-top: -280px;
+            }
         }
     </style>
 </head>
